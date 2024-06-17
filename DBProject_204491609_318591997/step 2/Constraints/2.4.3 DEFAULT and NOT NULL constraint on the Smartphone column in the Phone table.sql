@@ -1,0 +1,2 @@
+ALTER TABLE Phone
+MODIFY (Smartphone DEFAULT 0 NOT NULL);
