@@ -102,7 +102,7 @@ CREATE TABLE Calls
   PRIMARY KEY (Phone_Number),
   FOREIGN KEY (Phone_Number) REFERENCES Phone(Phone_Number),
   FOREIGN KEY (A_Side, B_Side, Start_Time) REFERENCES Phone_Calls(A_Side, B_Side, Start_Time)
-);
+);z
 
 CREATE TABLE House
 (
