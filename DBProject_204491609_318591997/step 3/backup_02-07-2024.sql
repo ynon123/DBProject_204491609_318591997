@@ -1,5 +1,5 @@
 ﻿prompt PL/SQL Developer Export Tables for user SYS@XE
-prompt Created by user on Monday, July 1, 2024
+prompt Created by user on Tuesday, July 2, 2024
 set feedback off
 set define off
 
@@ -531,7 +531,7 @@ prompt Disabling foreign key constraints for CALLS...
 alter table CALLS disable constraint SYS_C008543;
 alter table CALLS disable constraint SYS_C008544;
 prompt Disabling foreign key constraints for DANGEROUS_PEOPLE_OPERATIONS...
-alter table DANGEROUS_PEOPLE_OPERATIONS disable constraint SYS_C008590;
+alter table DANGEROUS_PEOPLE_OPERATIONS disable constraint SYS_C008595;
 prompt Disabling foreign key constraints for HOLD...
 alter table HOLD disable constraint SYS_C008553;
 alter table HOLD disable constraint SYS_C008554;
@@ -23631,7 +23631,7 @@ prompt Enabling foreign key constraints for CALLS...
 alter table CALLS enable constraint SYS_C008543;
 alter table CALLS enable constraint SYS_C008544;
 prompt Enabling foreign key constraints for DANGEROUS_PEOPLE_OPERATIONS...
-alter table DANGEROUS_PEOPLE_OPERATIONS enable constraint SYS_C008590;
+alter table DANGEROUS_PEOPLE_OPERATIONS enable constraint SYS_C008595;
 prompt Enabling foreign key constraints for HOLD...
 alter table HOLD enable constraint SYS_C008553;
 alter table HOLD enable constraint SYS_C008554;
