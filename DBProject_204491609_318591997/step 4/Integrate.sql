@@ -17,7 +17,6 @@ FROM (
   -- בחירת מזהי אנשים מסוכנים
   SELECT person_id AS Id
   FROM dangerous_people_operations
-  WHERE danger_level > 50  -- רק אנשים עם רמת סיכון מעל 50
 ) h  -- מתן שם לטבלה הזמנית כ-h
 
 CROSS JOIN (
@@ -28,7 +27,7 @@ CROSS JOIN (
     FROM Unit
     ORDER BY DBMS_RANDOM.VALUE  -- סידור רשומות היחידות באופן רנדומלי
   )
-  WHERE ROWNUM <= 5  -- בחירת 5 היחידות באופן רנדומלי
+  WHERE ROWNUM <= 100  -- בחירת היחידות באופן רנדומלי
 ) u  -- מתן שם לטבלה הזמנית כ-u
 WHERE ROWNUM <= 3000;  --  הגבלת התוצאה ל3000 הרשומות הראשונות
 
