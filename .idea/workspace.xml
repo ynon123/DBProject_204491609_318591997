@@ -4,9 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c9f49ec2-fa82-4880-9944-34b491dd0b52" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="c9f49ec2-fa82-4880-9944-34b491dd0b52" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -40,7 +38,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "main",
     "ignore.virus.scanning.warn.message": "true",
-    "last_opened_file_path": "C:/Users/user/PycharmProjects/intelegram-backend",
+    "last_opened_file_path": "C:/Users/user/PycharmProjects/DBProject_204491609_318591997",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -76,6 +74,7 @@
       <workItem from="1719935237136" duration="294000" />
       <workItem from="1720352324636" duration="639000" />
       <workItem from="1720985674566" duration="1483000" />
+      <workItem from="1721305185400" duration="189000" />
     </task>
     <servers />
   </component>
